@@ -1,0 +1,15 @@
+{
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true // 保存时整理 import ，去掉没用的导包
+    },
+    "python.testing.unittestEnabled": false,
+    "python.testing.promptToConfigure": false,
+    "python.testing.autoTestDiscoverOnSaveEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.testing.pytestArgs": [
+        "-s",
+        "-m",
+    ]
+}
